@@ -38,7 +38,7 @@
   },
   "binary": {
     "version": "v0.2.0",
-    "host": "https://github.com/hyperledger/anoncreds-rs/releases/download",
+    "host": "https://github.com/adrianmross/anoncreds-rs/releases/download",
     "packageName": "library-{platform}-{arch}.tar.gz"
   },
   "engines": {

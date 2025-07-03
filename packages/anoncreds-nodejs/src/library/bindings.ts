@@ -247,4 +247,11 @@ export const nativeBindings = {
   anoncreds_w3c_credential_proof_get_attribute: [FFI_ERRORCODE, [FFI_OBJECT_HANDLE, FFI_STRING, FFI_STRING_PTR]],
   anoncreds_w3c_presentation_from_json: [FFI_ERRORCODE, [ByteBufferStruct, FFI_STRING_PTR]],
   anoncreds_w3c_credential_from_json: [FFI_ERRORCODE, [ByteBufferStruct, FFI_STRING_PTR]],
+  anoncreds_generate_tails_file: [
+    FFI_ERRORCODE, 
+    [
+      FFI_STRING, 
+      FFI_STRING
+    ]
+  ],
 } as const
